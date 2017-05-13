@@ -1,0 +1,49 @@
+<section class="resume">
+
+  <div class="container">
+
+    <h3 class="section-title">Experience</h3>
+
+    {% for job in site.data.jobs %}
+        <article class="entry">
+            <div class="meta">
+                <p class="title">{{ job.title }}</p>
+                <p class="company">{{ job.company }}</p>
+                <p class="period">{{ job.period }}</p>
+            </div>
+
+            <div class="desc">
+                <p>{{ job.description }}</p>
+            </div>
+        </article>
+    {% endfor %}
+  </div>
+
+</section>
+
+<section class="posts">
+
+  <div class="container">
+
+    <h3 class="section-title">What I'm Thinking About</h3>
+
+    <div class="posts--list">
+      {% for post in site.posts %}
+
+      <article class="entry">
+
+        <div class="meta">
+          <a href="{{ post.url }}"><p class="title">{{ post.title }}</p></a>
+          <p class="company">{{ post.date | date_to_string }}</p>
+        </div>
+
+        <div class="desc">
+          TK Tk Tk
+        </div>
+    </article>
+
+
+    {% endfor %}
+    </div>
+  </div>
+</section>

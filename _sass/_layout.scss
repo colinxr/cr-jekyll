@@ -1,0 +1,24 @@
+// @name Layout
+// @description All layout settings and styles
+
+// Default spacing unit
+$spacer: 28px;
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 $spacer;
+}
+
+.section-title {
+    letter-spacing: 1px;
+    margin-bottom: $spacer;
+    position: relative;
+}
+
+.header-small {
+  background-color: white;
+  border-bottom: 1px solid #edefee;
+  padding: $spacer;
+
+}

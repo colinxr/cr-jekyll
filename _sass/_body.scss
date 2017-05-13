@@ -1,0 +1,52 @@
+// @name Body
+// @description All body styles
+
+body {
+  background-color: #fafafa;
+}
+
+section {
+  border-bottom: 1px solid #edefee;
+  padding: ($spacer * 2) 0 0;
+}
+
+.entry {
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: $spacer;
+}
+
+.meta, .desc  {
+  flex: 1;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: $spacer;
+}
+
+.meta {
+  padding-right: ($spacer * 2);
+  flex-grow: 1;
+}
+
+.desc { flex-grow: 2; }
+
+.title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5555556rem;
+}
+
+a {
+  color: #4a4a4a;
+  background: rgba(245, 215, 110, .5);
+  transition: all linear .2s;
+  cursor: pointer;
+
+  &:hover {
+  background: rgba(245, 215, 110, 1);
+  text-decoration: none;
+  }
+
+
+}

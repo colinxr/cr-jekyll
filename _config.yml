@@ -1,0 +1,17 @@
+# Jekyll Resume Theme
+
+# Site settings
+title: Jekyll Resume
+email: colinxr@gmail.com
+description: Jekyll Resume is a mega simple resume theme for Jekyll.
+url: "http://127.0.0.1:4000"
+name: Colin Rabyniuk
+job: writer, product manager, and front-end dev
+location: Toronto, ON
+languages: HTML, CSS and Javascript
+twitter_username: colinrabyniuk
+github_username:  colinxr@gmail.com
+email_address: colinxr@gmail.com
+
+# Build settings
+markdown: kramdown

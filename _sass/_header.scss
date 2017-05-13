@@ -1,0 +1,85 @@
+// @name Header
+// @description All header styles
+
+header {
+  background-color: white;
+    border-bottom: 1px solid #edefee;
+    padding: ($spacer * 2) 0;
+    margin-bottom: ($spacer * 2);
+
+    @media(min-width: 640px) {
+
+    }
+}
+
+.intro {
+    margin-bottom: ($spacer * 2);
+
+    &__pre {
+    }
+
+    &__post {
+
+      &.ease{
+        animation-delay: .75s
+      }
+    }
+
+    &__main {
+
+      &.ease{
+        animation-delay: .25s
+      }
+
+        font-weight: bold;
+        margin: ($spacer / 2 ) 0 $spacer;
+
+        &:nth-of-type(2) {
+          animation-delay: .45s
+        }
+
+        &:nth-of-type(3) {
+          animation-delay: .55s
+        }
+
+        @media(min-width: 640px) {
+            max-width: 85%;
+        }
+    }
+}
+
+.social {
+    a {
+        margin-right: $spacer;
+    }
+}
+
+.ease {
+    opacity: 0;
+    animation: slideUp .75s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode:forwards; /*when the spec is finished*/
+
+    -webkit-animation: slideUp .75s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+  }
+
+@keyframes slideUp{
+  0%,100% {
+    -webkit-transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+   -moz-transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+     -o-transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+        transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000); /* easeOutCirc */
+  }
+    0% {
+        opacity:0;
+        transform:  translateY(75px);
+    }
+    100% {
+        opacity:1;
+        transform:  translateY(0)  ;
+    }
+}
