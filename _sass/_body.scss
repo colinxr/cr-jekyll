@@ -3,17 +3,23 @@
 
 body {
   background-color: #fafafa;
+  color: #4a4a4a;
 }
 
 section {
   border-bottom: 1px solid #edefee;
-  padding: ($spacer * 2) 0 0;
+  padding: ($spacer * 2) 0;
 }
 
 .entry {
   display: -webkit-flex;
   display: flex;
   margin-bottom: $spacer;
+
+  @media(max-width: 500px) {
+    display: block;
+    margin-bottom: $spacer * 2;
+  }
 }
 
 .meta, .desc  {
@@ -21,6 +27,10 @@ section {
   display: inline-block;
   vertical-align: top;
   margin-bottom: $spacer;
+
+  @media(max-width: 500px) {
+    margin-bottom: 0;
+  }
 }
 
 .meta {
@@ -50,5 +60,5 @@ a {
 }
 
 .post-entry {
-  padding-top: $spacer * 2;
+  padding: $spacer * 2 0;
 }

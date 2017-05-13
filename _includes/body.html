@@ -1,31 +1,8 @@
-<section class="resume">
-
-  <div class="container">
-
-    <h3 class="section-title">Experience</h3>
-
-    {% for job in site.data.jobs %}
-        <article class="entry">
-            <div class="meta">
-                <p class="title">{{ job.title }}</p>
-                <p class="company">{{ job.company }}</p>
-                <p class="period">{{ job.period }}</p>
-            </div>
-
-            <div class="desc">
-                <p>{{ job.description }}</p>
-            </div>
-        </article>
-    {% endfor %}
-  </div>
-
-</section>
-
 <section class="posts">
 
   <div class="container">
 
-    <h3 class="section-title">What I'm Thinking About</h3>
+    <h3 class="section-title">Stuff I'm Thinking About</h3>
 
     <div class="posts--list">
       {% for post in site.posts %}
@@ -33,8 +10,8 @@
       <article class="entry">
 
         <div class="meta">
-          <a href="{{ post.url }}"><p class="title">{{ post.title }}</p></a>
-          <p class="company">{{ post.date | date_to_string }}</p>
+          <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}"><p class="title">{{ post.title }}</p></a>
+          <p class="meta--secondary">{{ post.date | date_to_string }}</p>
         </div>
 
         <div class="desc">
@@ -46,4 +23,27 @@
     {% endfor %}
     </div>
   </div>
+</section>
+
+<section class="resume">
+
+  <div class="container">
+
+    <h3 class="section-title">Other Work-Like Things</h3>
+
+    {% for job in site.data.jobs %}
+        <article class="entry">
+            <div class="meta">
+                <p class="title">{{ job.title }}</p>
+                <p class="meta--secondary">{{ job.company }}</p>
+                <p class="meta--secondary">{{ job.period }}</p>
+            </div>
+
+            <div class="desc">
+                <p>{{ job.description }}</p>
+            </div>
+        </article>
+    {% endfor %}
+  </div>
+
 </section>

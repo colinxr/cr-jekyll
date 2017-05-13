@@ -33,7 +33,7 @@ body {
   line-height: 1; }
 
 ol, ul {
-  list-style: none; }
+  margin-left: 45px; }
 
 blockquote, q {
   quotes: none; }
@@ -48,9 +48,11 @@ table {
   border-spacing: 0; }
 
 .container {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 0 28px; }
+  max-width: 800px;
+  margin: 0 auto; }
+  @media (max-width: 800px) {
+    .container {
+      max-width: 90%; } }
 
 .section-title {
   letter-spacing: 1px;
@@ -103,6 +105,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1rem;
+  font-weight: 600;
   line-height: 1.5555556rem;
   margin-top: 1.5555556rem;
   margin-bottom: 0rem; }
@@ -139,6 +142,16 @@ sup {
 
 sub {
   bottom: -0.25em; }
+
+h2.post-title {
+  margin-bottom: 0; }
+
+h4.meta--secondary {
+  margin-bottom: 1.5555556rem;
+  margin-top: 0; }
+
+.meta--secondary {
+  color: #646464; }
 
 /* refer to https://github.com/spoqa/spoqa.github.com/blob/master/css/syntax.css */
 code {
@@ -405,8 +418,7 @@ code {
 header {
   background-color: white;
   border-bottom: 1px solid #edefee;
-  padding: 56px 0;
-  margin-bottom: 56px; }
+  padding: 56px 0; }
 
 .intro {
   margin-bottom: 56px; }
@@ -466,22 +478,30 @@ header {
     text-transform: capitalize; }
 
 body {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+  color: #4a4a4a; }
 
 section {
   border-bottom: 1px solid #edefee;
-  padding: 56px 0 0; }
+  padding: 56px 0; }
 
 .entry {
   display: -webkit-flex;
   display: flex;
   margin-bottom: 28px; }
+  @media (max-width: 500px) {
+    .entry {
+      display: block;
+      margin-bottom: 56px; } }
 
 .meta, .desc {
   flex: 1;
   display: inline-block;
   vertical-align: top;
   margin-bottom: 28px; }
+  @media (max-width: 500px) {
+    .meta, .desc {
+      margin-bottom: 0; } }
 
 .meta {
   padding-right: 56px;
@@ -506,4 +526,4 @@ a {
     text-decoration: none; }
 
 .post-entry {
-  padding-top: 56px; }
+  padding: 56px 0; }

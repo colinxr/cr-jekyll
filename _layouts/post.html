@@ -4,11 +4,12 @@
     <body>
       <div class="header-small">
         <div class="container">
-          <h2><a href="{{site.url}}{{site.baseurl}}" class="ease">{{ site.name }}</a></h2>
+          <h4 class="intro__pre ease">Hey!</p>
+          <h2><a href="{{site.url}}{{site.baseurl}}" class="ease">I'm {{ site.name }}</a></h2>
 
           <div class="social">
-            <a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
             <a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+            <a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
             <a href="mailto:{{ site.email_address }}" target="_blank">Email</a>
 
               #COYG
@@ -18,9 +19,9 @@
 
       <div class="container post-entry">
 
-        <h3 class="post-title">{{ page.title }}</h3>
+        <h2 class="post-title">{{ page.title }}</h2>
 
-        <p class="company"><time>{{ page.date | date_to_string }}</time></p>
+        <h4 class="post meta--secondary"><time>{{ page.date | date_to_string }}</time></h4>
 
         {{ content }}
 

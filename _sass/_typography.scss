@@ -54,6 +54,7 @@ h3, .h3 {
 }
 h4, .h4 {
   font-size: 1rem;
+  font-weight: 600;
   line-height: 1.5555556rem;
   margin-top: 1.5555556rem;
   margin-bottom: 0rem;
@@ -91,4 +92,17 @@ sup {
 }
 sub {
   bottom: -0.25em;
+}
+
+h2.post-title {
+  margin-bottom: 0;
+}
+
+h4.meta--secondary {
+  margin-bottom: 1.5555556rem;
+  margin-top: 0;
+}
+
+.meta--secondary {
+  color: lighten(#4a4a4a, 10%);
 }
