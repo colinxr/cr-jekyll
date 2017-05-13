@@ -19,6 +19,6 @@ $spacer: 28px;
 .header-small {
   background-color: white;
   border-bottom: 1px solid #edefee;
-  padding: $spacer;
+  padding: $spacer 0 $spacer * 2;
 
 }

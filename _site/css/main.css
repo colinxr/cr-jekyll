@@ -60,7 +60,7 @@ table {
 .header-small {
   background-color: white;
   border-bottom: 1px solid #edefee;
-  padding: 28px; }
+  padding: 28px 0 56px; }
 
 body {
   font-family: "Lora", Helvetica, Arial, sans-serif, serif;
@@ -504,3 +504,6 @@ a {
   a:hover {
     background: #f5d76e;
     text-decoration: none; }
+
+.post-entry {
+  padding-top: 56px; }
