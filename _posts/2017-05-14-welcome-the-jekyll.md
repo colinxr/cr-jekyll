@@ -12,10 +12,6 @@ Welcome to the new <http://colinrabyniuk.com>. It's pretty simple, but take a lo
 
 #### Who's Jekyll?
 
-Not who, but what! Jekyll is a pretty cool little static site generator. Think of it like wordpress but with way less overheaad. I've been meaning to play around with it for a while. But, you know, haven't. 
+Not who, but what! Jekyll is a pretty cool little static site generator. Think of it like wordpress but with way less overheaad. I've been meaning to play around with it for a while. But, you know, haven't.
 
-[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
-
-#### Highlighted Code Blocks
-
-To modify styling and highlight colors edit `/_sass/_highlighter.scss`.
+It's nice to have the benefits of a CMS without the overhead of a wordpress install. I'm going to be using this space to share what's been going on with me – things I'm learning, stuff I'm working on. So, yeah, hope you enjoy.
