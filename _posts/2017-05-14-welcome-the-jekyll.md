@@ -12,7 +12,7 @@ Welcome to the new <http://colinrabyniuk.com>. It's pretty simple, but take a lo
 
 #### Who's Jekyll?
 
-Not who, but what! Jekyll is a pretty cool little static site generator. I've been meaning to play around with it for a while. But, you know, haven't.
+Not who, but what! Jekyll is a pretty cool little static site generator. Think of it like wordpress but with way less overheaad. I've been meaning to play around with it for a while. But, you know, haven't. 
 
 [^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 

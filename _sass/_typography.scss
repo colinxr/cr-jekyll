@@ -4,14 +4,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700|Playfair+Display:400,700,900);
 
 // Our variables
-$base-font-family: "Lora", Helvetica, Arial, sans-serif;
+$base-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $base-font-size:   18pt;
 $base-line-height: 28px;
 
 body {
-    font-family: $base-font-family, serif;
+    font-family: $base-font-family;
     font-size: $base-font-size;
-    line-height: 1.4;
+    line-height: $base-line-height;
 }
 
 html, .root {
@@ -19,7 +19,6 @@ html, .root {
   line-height: 28px;
 }
 body, .article {
-  font-family: sans-serif;
   font-size: 1rem;
   line-height: 1.5555556rem;
 }
@@ -105,4 +104,5 @@ h4.meta--secondary {
 
 .meta--secondary {
   color: lighten(#4a4a4a, 10%);
+  margin-bottom: 0;
 }
