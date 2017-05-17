@@ -31,8 +31,15 @@ Using restify over express. examples using spring framework. just calling server
 Any angular resources from, say, 2015 and before, are basically not helpful. the framework has changed so much. the biggest change is the switch from .sucess * .error to .then & .catch – that is, using promises.
 
 
+*callbacks & higher-order functions*
+honestly, i'm just not that great at JS. 
+http://callbackhell.com/
+
 *async functions*
 	- webscraping, super simple but is firing after my bookmark save method.
+	https://blog.risingstack.com/node-hero-async-programming-in-node-js/
+
+
 
 
 
