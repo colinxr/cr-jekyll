@@ -1,5 +1,5 @@
 -   title: Weathr
     languages: jQuery, Ajax
     time: June 2016
-    description: <a href="https://www.colinrabyniuk.com/weathr">Weathr</a> a quick little app to read the weather in any city in the world. It's built with jQuery, Ajax and the OpenWeatherMap API. I slapped materialize.css on to it as well, because, well, it's really nice.
-    links: <a href="https://www.github.com/colinxr/weathr">GitHub</a>, <a href="https://www.colinrabyniuk.com/weathr">Live Site</a>
+    description: <a href="http://www.colinrabyniuk.com/weathr">Weathr</a> a quick little app to read the weather in any city in the world. It's built with jQuery, Ajax and the OpenWeatherMap API. I slapped materialize.css on to it as well, because, well, it's really nice.
+    links: <a href="https://www.github.com/colinxr/weathr">GitHub</a>, <a href="http://www.colinrabyniuk.com/weathr">Live Site</a>
