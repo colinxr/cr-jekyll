@@ -10,7 +10,11 @@ Here is bookmarkr.
 
 #### Problems I Had
 
-*Understanding MVC *
+*Understanding MVC*
+
+where does everything go?
+
+made the mistake of coding logic directly into my routes file. Coming from Wordpress and front-end dev, MVC was really hard for me to figure out. 
 
 *the connection between front-end and back-end* 
 express routes tie into angular controllers.
@@ -25,7 +29,7 @@ from the scotch.io MEAN Starter app, which was a super helpful tutorial. Scotch.
 http://stackoverflow.com/a/11077013
 http://stackoverflow.com/a/12957755/444255
 
-Using restify over express. examples using spring framework. just calling server.js index.js. Super annoying. The code all does the same things. 
+Using restify over express. examples using spring framework. just calling server.js index.js. Super annoying. The code all does the same things. figuring out what each block should essentially look like, routes vs. controllers vs. app.js 
 
 *Things have just changed*
 Any angular resources from, say, 2015 and before, are basically not helpful. the framework has changed so much. the biggest change is the switch from .sucess * .error to .then & .catch – that is, using promises.

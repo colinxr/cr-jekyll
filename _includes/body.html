@@ -25,6 +25,29 @@
   </div>
 </section>
 
+<section class="projects">
+  <div class="container">
+    <h3 class="section-title">Projects</h3>
+
+    {% for project in site.data.projects %}
+      <article class="entry">
+          <div class="meta">
+              <p class="title">{{ project.title }}</p>
+              <p class="meta--secondary">{{ project.languages }}</p>
+          </div>
+
+          <div class="desc">
+              <p>{{ project.description }}</p>
+              <div class="links">
+                {{ project.links }}
+              </div>
+          </div>
+      </article>
+    {% endfor %}
+  </div>
+
+</section>
+
 <section class="resume">
 
   <div class="container">
