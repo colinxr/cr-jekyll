@@ -1,5 +1,17 @@
+-   title: Ron Howard Voice
+    languages: Node.js
+    time: June 2017
+    description: Cohousr is part of a research project into intentional communities that my brother is doing. It uses Node.js and Google's Custom Search Engine API to scrape data from cohousing craigslist ads. The data will be further analyzed to gain an accurate picture of how people are talking about these kinds of communities.
+    links: <a href="https://www.github.com/colinxr/scrapecl">GitHub</a>
+
+-   title: Ron Howard Voice
+    languages: Node.js
+    time: June 2017
+    description: Ron Howard Voice is a dumb Twitter bot I made using Node.js and the npm package Twit. It's like, so dumb I shouldn't even talk about it here.
+    links: <a href="https://www.github.com/colinxr/ron-howard-voice">GitHub</a>, <a href="http://www.twitter.com/ronhoward_voice">Live Site</a>
+
 -   title: Weathr
     languages: jQuery, Ajax
-    time: June 2016
+    time: June 2017
     description: <a href="http://www.colinrabyniuk.com/weathr">Weathr</a> a quick little app to read the weather in any city in the world. It's built with jQuery, Ajax and the OpenWeatherMap API. I slapped materialize.css on to it as well, because, well, it's really nice.
     links: <a href="https://www.github.com/colinxr/weathr">GitHub</a>, <a href="http://www.colinrabyniuk.com/weathr">Live Site</a>
