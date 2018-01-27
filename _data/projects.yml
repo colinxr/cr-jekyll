@@ -1,6 +1,12 @@
+-   title: Reach Weathr
+    languages: Javascript, React.Js
+    time: January 2018
+    desctipion: React Weathr is my first go around at using React.js. It's a simple way to get the forecast using the Reach and OpenWeatherMap API. React took a minute to wrap my head around, but once I got it I really enjoyed it. I'm looking forward to working with it more.
+    links: <a href="https://www.github.com/colinxr/react-weather">GitHub</a>, <a href="http://www.colinrabyniuk.com/react-weathr">Live Site</a>
+
 -   title: Cohousr
     languages: Javascript, Node.js
-    time: July 2017
+    time: August 2017
     description: Cohousr is part of a co-housing research project I'm helping my brother with. It uses node and request-promise and Google's Custom Search Engine API to scrape data from cohousing craigslist ads. The data will be further analyzed to gain an accurate picture of how people are talking about these kinds of communities.
     links: <a href="https://www.github.com/colinxr/scrapecl">GitHub</a>
 
