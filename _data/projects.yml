@@ -1,13 +1,19 @@
--   title: Reach Weathr
-    languages: Javascript, React.Js
+-   title: React Weathr
+    languages: Javascript, React.js
     time: January 2018
-    desctipion: React Weathr is my first go around at using React.js. It's a simple way to get the forecast using the Reach and OpenWeatherMap API. React took a minute to wrap my head around, but once I got it I really enjoyed it. I'm looking forward to working with it more.
+    description: React Weathr is my first go around at using React.js. It's a simple way to get the forecast using the Reach and OpenWeatherMap API. React took a minute to wrap my head around, but once I got it I really enjoyed it. I'm looking forward to working with it more.
     links: <a href="https://www.github.com/colinxr/react-weather">GitHub</a>, <a href="http://www.colinrabyniuk.com/react-weathr">Live Site</a>
+
+-   title: ESFiddle
+    languages: Javascript, Less, Pug
+    time: 2017
+    description: This was my first ever open source contribution. ESFiddle is an ES6 online playground, letting users try out awesome ES6 features. I help redesigned the profile page to be mobile friendly and make better use of space.
+    links: <a href="https://github.com/esfiddle/esfiddle">GitHub</a>, <a href="https://esfiddle.net/">Live Site</a>
 
 -   title: Cohousr
     languages: Javascript, Node.js
-    time: August 2017
-    description: Cohousr is part of a co-housing research project I'm helping my brother with. It uses node and request-promise and Google's Custom Search Engine API to scrape data from cohousing craigslist ads. The data will be further analyzed to gain an accurate picture of how people are talking about these kinds of communities.
+    time: Winter 2017
+    description: Cohousr is a Node app that uses Google's Custom Search API to gather specific craiglist posts before scraping them for further analysis. It's a part of research project my brother is working on about cohousing and intentional communities. Eventually we want to use NLP to analyze the listings and document our findings.
     links: <a href="https://www.github.com/colinxr/scrapecl">GitHub</a>
 
 -   title: Ron Howard Voice
@@ -16,8 +22,8 @@
     description: Ron Howard Voice is a dumb Twitter bot I made using Node.js and the npm package Twit. It's like, so dumb I shouldn't even talk about it here.
     links: <a href="https://www.github.com/colinxr/ron-howard-voice">GitHub</a>, <a href="http://www.twitter.com/ronhoward_voice">Twitter</a>
 
--   title: Weathr
-    languages: jQuery, Ajax
-    time: June 2017
-    description: <a href="http://www.colinrabyniuk.com/weathr">Weathr</a> a quick little app to read the weather in any city in the world. It's built with jQuery, Ajax and the OpenWeatherMap API. I slapped materialize.css on to it as well, because, well, it's really nice.
-    links: <a href="https://www.github.com/colinxr/weathr">GitHub</a>, <a href="http://www.colinrabyniuk.com/weathr">Live Site</a>
+-   title: Sharp Custom Features
+    languages: HTML5, SCSS, Javascript
+    time: April 2016 - Present
+    description: At Sharp, I've put together a variety of <a href="http://sharpmagazine.com/features/grace-too/" target="_blank">editorial</a> <a href="http://sharpmagazine.com/features/henry-cavill/" target="_blank">features</a> for the <a href="http://sharpmagazine.com/features/taming-the-beast/" target="_blank">magazine</a>. They're fun projects that let me design and develop. In the magazine, these articles would be big multi-page spreads, cover stories, but they often lose their impact when just put into a standard CMS template. These executions incease the impact of the stories online.
+    links: <a href="http://sharpmagazine.com/features/grace-too/" target="_blank">Grace, Too</a>, <a href="http://sharpmagazine.com/features/henry-cavill/" target="_blank">Henry Cavill</a>, <a href="http://sharpmagazine.com/features/taming-the-beast/" target="_blank">Taming the Beast</a>
