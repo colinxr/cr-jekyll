@@ -1,31 +1,27 @@
 <!doctype html>
 <html>
-    {% include head.html %}
-    <body>
-      <div class="header-small">
-        <div class="container">
-          <h4 class="intro__pre postEase">Hey!</p>
-          <h2 class="postEase"><a href="http://www.colinrabyniuk.com">I&rsquo;m {{ site.name }}</a></h2>
+  {% include head.html %}
+  <body>
+    <div class="header-small">
+      <div class="container">
+        <h4 class="intro__pre postEase">Hey!</p>
+        <h2 class="postEase"><a href="http://www.colinrabyniuk.com">I&rsquo;m {{ site.name }}</a></h2>
 
-          <div class="social">
-            <a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
-            <a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
-            <a href="mailto:{{ site.email_address }}" target="_blank">Email</a>
+        <div class="social">
+          <a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+          <a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+          <a href="mailto:{{ site.email_address }}" target="_blank">Email</a>
 
-              #COYG
-          </div>
+            #COYG
         </div>
       </div>
+    </div>
 
-      <div class="container post-entry">
-
-        <h2 class="post-title">{{ page.title }}</h2>
-
-        <h4 class="post meta--secondary"><time>{{ page.date | date_to_string }}</time></h4>
-
-        {{ content }}
-
-      </div>
-        {% include footer.html %}
-    </body>
+    <div class="container post-entry">
+      <h2 class="post-title">{{ page.title }}</h2>
+      <h4 class="post meta--secondary"><time>{{ page.date | date_to_string }}</time></h4>
+      {{ content }}
+    </div>
+      {% include footer.html %}
+  </body>
 </html>
