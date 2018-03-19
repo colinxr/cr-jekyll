@@ -1,23 +1,29 @@
+-   title: NoFeed
+    languages: Node.js, React, MongoDB
+    time: Feb 2018 - Present
+    description: Most Canadian news services are not making strong digital products. NoFeed is an exploration of what a digital-first, tech-driven, Canadian-based news aggregator could look like. Using Node.js, the app parses a growing list of newsources, using NLP to categorize and group stories into a reverse chron newsfeed, where a human editor can curate and publish the best and most relevant stories.
+    links: <a href="https://www.github.com/colinxr/newsfeed" target="_blank">GitHub</a>
+
 -   title: Cohousr
-    languages: Javascript, Node.js
+    languages: Node.js
     time: July 2017
     description: Cohousr is part of a co-housing research project I'm helping my brother with. It uses node and request-promise and Google's Custom Search Engine API to scrape data from cohousing craigslist ads. The data will be further analyzed to gain an accurate picture of how people are talking about these kinds of communities.
-    links: <a href="https://www.github.com/colinxr/scrapecl">GitHub</a>
+    links: <a href="https://www.github.com/colinxr/scrapecl" target="_blank">GitHub</a>
 
 -   title: ESFiddle
-    languages: Javascript, Node.js, Less, Pug
+    languages: Node.js, Less, Pug
     time: July 2017
-    description: This was my first ever open source contribution. ESFiddle is an ES6 online playground, letting users try out awesome ES6 features. I help redesigned the profile page to be mobile friendly and make better use of space. 
-    links: <a href="https://github.com/esfiddle/esfiddle">GitHub</a>, <a href="https://esfiddle.net/">Live Site</a>
+    description: This was my first ever open source contribution. ESFiddle is an ES6 online playground, letting users try out awesome ES6 features. I help redesigned the profile page to be mobile friendly and make better use of space.
+    links: <a href="https://github.com/esfiddle/esfiddle" target="_blank">GitHub</a>, <a href="https://esfiddle.net/" target="_blank">Live Site</a>
 
 -   title: Ron Howard Voice
-    languages: Javascript, Node.js
+    languages: Node.js
     time: June 2017
     description: Ron Howard Voice is a dumb Twitter bot I made using Node.js and the npm package Twit. It's like, so dumb I shouldn't even talk about it here.
-    links: <a href="https://www.github.com/colinxr/ron-howard-voice">GitHub</a>, <a href="http://www.twitter.com/ronhoward_voice">Twitter</a>
+    links: <a href="https://www.github.com/colinxr/ron-howard-voice" target="_blank">GitHub</a>, <a href="http://www.twitter.com/ronhoward_voice" target="_blank">Twitter</a>
 
--   title: Weathr
-    languages: jQuery, Ajax
-    time: June 2017
-    description: <a href="http://www.colinrabyniuk.com/weathr">Weathr</a> a quick little app to read the weather in any city in the world. It's built with jQuery, Ajax and the OpenWeatherMap API. I slapped materialize.css on to it as well, because, well, it's really nice.
-    links: <a href="https://www.github.com/colinxr/weathr">GitHub</a>, <a href="http://www.colinrabyniuk.com/weathr">Live Site</a>
+-   title: Sharp Custom Features
+    languages: HTML5, SCSS, Javascript
+    time: April 2016 - Present
+    description: At Sharp, I've put together a variety of editorial features for the <a href="sharpmagazine.com/" target="_blank">magazine</a>. They're fun projects that let me design and develop. In the magazine, these articles would be big multi-page spreads, cover stories, but they often lose their impact when just put into a standard CMS template. These executions incease the impact of the stories online.
+    links: <a href="http://sharpmagazine.com/features/grace-too/" target="_blank">Grace, Too</a>, <a href="http://sharpmagazine.com/features/henry-cavill/" target="_blank">Henry Cavill</a>, <a href="http://sharpmagazine.com/features/taming-the-beast/" target="_blank">Taming the Beast</a>,

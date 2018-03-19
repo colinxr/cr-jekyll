@@ -7,11 +7,12 @@ description: Jekyll Resume is a mega simple resume theme for Jekyll.
 url: "http://www.colinrabyniuk.com"
 baseurl: "http://www.colinrabyniuk.com"
 name: Colin Rabyniuk
-job: writer, product manager, and developer
+job: full-stack dev
 location: Toronto, ON
-languages: HTML, CSS and Javascript
+languages: HTML, CSS and Javascript, Node.js, React
 twitter_username: colinrabyniuk
 github_username:  colinxr
+medium_username:  colinrabyniuk
 email_address: colinxr@gmail.com
 
 # Build settings

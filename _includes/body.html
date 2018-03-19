@@ -1,29 +1,21 @@
-<section class="posts">
-
+<!-- <section class="posts">
   <div class="container">
-
     <h3 class="section-title">Stuff I&rsquo;m Thinking About</h3>
-
     <div class="posts--list">
-      {% for post in site.posts %}
 
       <article class="entry">
-
         <div class="meta">
-          <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}"><p class="title">{{ post.title }}</p></a>
-          <p class="meta--secondary">{{ post.date | date_to_string }}</p>
+          {{ if site.medium_username }}<a href="http://medium.com/a{{ site.medium_username }}" target="_blank"><p class="title">Follow me on Medium</p></a>{{ endif }}
         </div>
 
         <div class="desc">
-        {{ post.description }}
+        <p>Check out my Medium account where I'm sharing developer articles, et al.</p>
         </div>
     </article>
 
-
-    {% endfor %}
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="projects">
   <div class="container">
@@ -46,27 +38,23 @@
       </article>
     {% endfor %}
   </div>
-
 </section>
 
 <section class="resume">
-
   <div class="container">
-
     <h3 class="section-title">Other Work-Like Things</h3>
-
     {% for job in site.data.jobs %}
-        <article class="entry">
-            <div class="meta">
-                <p class="title">{{ job.title }}</p>
-                <p class="meta--secondary">{{ job.company }}</p>
-                <p class="meta--secondary">{{ job.time }}</p>
-            </div>
+      <article class="entry">
+        <div class="meta">
+          <p class="title">{{ job.title }}</p>
+          <p class="meta--secondary">{{ job.company }}</p>
+          <p class="meta--secondary">{{ job.time }}</p>
+        </div>
 
-            <div class="desc">
-                <p>{{ job.description }}</p>
-            </div>
-        </article>
+        <div class="desc">
+          <p>{{ job.description }}</p>
+        </div>
+      </article>
     {% endfor %}
   </div>
 
