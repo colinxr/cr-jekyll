@@ -22,8 +22,8 @@
     description: Ron Howard Voice is a dumb Twitter bot I made using Node.js and the npm package Twit. It's like, so dumb I shouldn't even talk about it here.
     links: <a href="https://www.github.com/colinxr/ron-howard-voice" target="_blank">GitHub</a>, <a href="http://www.twitter.com/ronhoward_voice" target="_blank">Twitter</a>
 
--   title: Sharp Custom Features
-    languages: HTML5, SCSS, Javascript
+-   title: Sharp Magazine – Custom Features
+    languages: HTML5, SCSS, Vue.js
     time: April 2016 - Present
     description: At Sharp, I've put together a variety of editorial features for the <a href="sharpmagazine.com/" target="_blank">magazine</a>. They're fun projects that let me design and develop. In the magazine, these articles would be big multi-page spreads, cover stories, but they often lose their impact when just put into a standard CMS template. These executions incease the impact of the stories online.
     links: <a href="http://sharpmagazine.com/features/grace-too/" target="_blank">Grace, Too</a>, <a href="http://sharpmagazine.com/features/henry-cavill/" target="_blank">Henry Cavill</a>, <a href="http://sharpmagazine.com/features/taming-the-beast/" target="_blank">Taming the Beast</a>,
